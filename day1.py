@@ -1,5 +1,8 @@
+#solo lear program
+#this program is about the celsius to fahrenhit conversion
+
 celsius = int(input())
-#firstcommit
+
 def conv(c):
     return 9/5 * celsius + 32
 
