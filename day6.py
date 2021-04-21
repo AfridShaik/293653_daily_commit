@@ -1,12 +1,17 @@
-num = int(input())
-###
-
-def fibonacci(n):
-    if n <= 1:
-        return n
-    else:
-        return fibonacci(n-1) + fibonacci(n-2)
+class A:
+    def a(self):
+        print(1)
 
 
-for i in range(num):
-    print(fibonacci(i))
+class B(A):
+    def a(self):
+        print(2)
+
+
+class C(B):
+    def c(self):
+        print(3)
+
+
+c = C()
+c.a()
