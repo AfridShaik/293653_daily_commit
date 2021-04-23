@@ -1,17 +1,8 @@
-class A:
-    def a(self):
-        print(1)
-
-
-class B(A):
-    def a(self):
-        print(2)
-
-
-class C(B):
-    def c(self):
-        print(3)
-
-
-c = C()
-c.a()
+for i in range(10):
+  try:
+    if 10 / i == 2.0:
+      break
+  except ZeroDivisionError:
+    print(1)
+  else:
+    print(2)
